@@ -1,0 +1,64 @@
+.foto-perfil {
+ height: 200px;
+ width: auto;
+ max-width: 400px;
+ border-radius: 600px;
+}
+
+.corPrimaria {
+ #grad1 height: 800px;
+ background-color: mediumpurple(164, 8, 216);
+ /* For browsers that do not support gradients */
+ background-image: linear-gradient(to bottom right, blueviolet, indigo);
+}
+
+.corSecundaria {
+ #grad1 height: 200px;
+ background-color: indigo(164, 8, 216);
+ /* For browsers that do not support gradients */
+ background-image: linear-gradient(to bottom right, rgb(6, 1, 11), rgb(53, 5, 88));
+}
+
+p {
+ font-family: Lato, 'Helvetica Neue', Helvetica, arial, sans-serif;
+ color: black !important;
+}
+
+.icones {
+ padding-left: 5px;
+
+}
+
+.titulosbranco {
+ text-decoration: underline;
+ text-underline-position: below;
+ padding-bottom: 20px;
+ text-transform: uppercase;
+ font-weight: 700;
+ color: white;
+}
+
+.titulosRoxo {
+ text-decoration: underline;
+ text-underline-position: below;
+ padding-bottom: 20px;
+ text-transform: uppercase;
+ font-weight: 700;
+ color: rgb(49, 2, 75)
+}
+
+.textobranco {
+ color: white !important;
+}
+
+
+.textofooter {
+ margin: 0px;
+ padding-top: 15px;
+ padding-bottom: 15px;
+}
+
+html {
+ scroll-behavior: smooth;
+}
+
