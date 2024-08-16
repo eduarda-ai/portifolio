@@ -1,0 +1,190 @@
+/* Estilos gerais do corpo da página */
+body {
+    margin: 0; /* Remove a margem padrão */
+    padding: 48px 0; /* Adiciona padding superior e inferior */
+    font-family: "Figtree", sans-serif; /* Define a fonte padrão */
+    font-size: 1.2rem; /* Define o tamanho da fonte */
+    line-height: 1.6rem; /* Define a altura da linha */
+    background: rgb(238,174,202); /* Cor de fundo fallback */
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); /* Gradiente radial de fundo */
+    min-height: 100vh; /* Garante que o corpo ocupe pelo menos a altura da viewport */
+}
+
+/* Estilos do cabeçalho fixo */
+header {
+    color: white; /* Cor do texto no cabeçalho */
+    padding: 10px; /* Padding interno do cabeçalho */
+    position: fixed; /* Fixar o cabeçalho no topo */
+    top: 0; /* Posiciona o cabeçalho no topo da página */
+    left: 0; /* Posiciona o cabeçalho na borda esquerda */
+    width: 100%; /* Largura total do cabeçalho */
+    background: rgba(0, 0, 0, 0.5); /* Cor de fundo com opacidade */
+    z-index: 1000; /* Define o índice de empilhamento para garantir que o cabeçalho fique acima de outros elementos */
+    min-height: 70px; /* Altura mínima do cabeçalho */
+    box-sizing: border-box; /* Inclui padding e borda na largura total */
+}
+
+/* Estilos para o título no cabeçalho */
+header h1 {
+    margin: 0; /* Remove a margem padrão */
+    line-height: 1; /* Define a altura da linha para o título */
+}
+
+/* Estilos do botão de menu */
+#menu-button {
+    position: absolute; /* Posiciona o botão em relação ao elemento pai */
+    top: 20px; /* Distância do topo do cabeçalho */
+    right: 20px; /* Distância da borda direita do cabeçalho */
+    font-size: 20px; /* Tamanho da fonte do botão */
+    background-color: white; /* Cor de fundo do botão */
+    color: black; /* Cor do texto no botão */
+    border-radius: 20%; /* Arredondamento dos cantos do botão */
+    cursor: pointer; /* Cursor em forma de mão ao passar sobre o botão */
+}
+
+/* Estilos do menu oculto */
+#menu {
+    display: none; /* Esconde o menu inicialmente */
+    position: fixed; /* Posiciona o menu fixo na tela */
+    top: 0; /* Posiciona o menu no topo da página */
+    left: 0; /* Posiciona o menu na borda esquerda */
+    width: 100%; /* Largura total do menu */
+    height: 100%; /* Altura total do menu */
+    background-color: black; /* Cor de fundo do menu */
+    padding: 10px; /* Padding interno do menu */
+    z-index: 15; /* Define o índice de empilhamento para garantir que o menu fique acima de outros elementos */
+}
+
+/* Estilos da lista dentro do menu */
+#menu ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão */
+    text-align: center; /* Centraliza o texto da lista */
+    margin-top: 20%; /* Adiciona margem superior para centralizar verticalmente */
+}
+
+/* Estilos dos itens da lista no menu */
+#menu ul li {
+    margin-bottom: 10px; /* Adiciona margem inferior entre os itens */
+}
+
+/* Estilos dos links dentro dos itens da lista */
+#menu ul li a {
+    color: white; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    display: block; /* Faz com que o link ocupe o bloco inteiro do item da lista */
+    padding: 10px; /* Adiciona padding interno aos links */
+}
+
+/* Estilos dos links ao passar o mouse */
+#menu ul li a:hover {
+    background-color: gray; /* Cor de fundo ao passar o mouse sobre o link */
+}
+
+/* Estilos do conteúdo principal */
+main {
+    padding-top: 80px; /* Adiciona padding superior para evitar sobreposição com o cabeçalho fixo */
+}
+
+/* Estilos da foto do perfil */
+.profile-photo {
+    display: block; /* Exibe a foto como um bloco */
+    max-width: 200px; /* Define a largura máxima da foto */
+    height: auto; /* Mantém a proporção da altura */
+    border-radius: 30%; /* Arredondamento dos cantos da foto */
+    margin: 0 auto; /* Centraliza a foto horizontalmente */
+}
+
+/* Estilos do container de habilidades */
+.container {
+    text-align: center; /* Centraliza o texto dentro do container */
+    margin-top: 20px; /* Adiciona margem superior */
+}
+
+/* Estilos dos parágrafos */
+p {
+    color: black; /* Cor do texto dos parágrafos */
+    font-family: fantasy; /* Define a fonte do texto */
+    text-align: center; /* Centraliza o texto dos parágrafos */
+    margin-top: 200px; /* Adiciona margem superior */
+    font-size: 2.0rem; /* Define o tamanho da fonte */
+}
+
+/* Estilos dos subtítulos */
+h2 {
+    color: black; /* Cor do texto dos subtítulos */
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte do texto */
+    text-align: center; /* Centraliza o texto dos subtítulos */
+}
+
+/* Estilos dos subtítulos de terceiro nível */
+h3 {
+    text-align: center; /* Centraliza o texto */
+    margin-top: 20px; /* Adiciona margem superior */
+    font-size: 1.8rem; /* Define o tamanho da fonte */
+    color: black; /* Cor do texto */
+}
+
+/* Estilos dos subtítulos de quarto nível */
+h4 {
+    text-align: center; /* Centraliza o texto */
+    font-size: 1.1rem; /* Define o tamanho da fonte */
+    color: white; /* Cor do texto */
+    margin-top: 10px; /* Adiciona margem superior */
+    line-height: 1.5rem; /* Define a altura da linha */
+}
+
+/* Estilos dos subtítulos de quinto nível */
+h5 {
+    color: black; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 50px; /* Adiciona margem superior */
+    font-size: 2.0rem; /* Define o tamanho da fonte */
+}
+
+/* Estilos dos subtítulos de sexto nível */
+h6 {
+    color: black; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    margin-top: -250px; /* Ajusta a margem superior (pode precisar de ajuste) */
+    font-size: 2.0rem; /* Define o tamanho da fonte */
+}
+
+/* Estilos para o container de habilidades */
+.skills {
+    margin-top: 30px; /* Adiciona margem superior */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilos do container de habilidades com flexbox */
+.skills-container {
+    display: flex; /* Exibe os itens com flexbox */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    flex-wrap: wrap; /* Permite que os itens se movam para a linha seguinte se necessário */
+    gap: 60px; /* Espaçamento entre os itens */
+}
+
+/* Estilos das imagens dentro do container de habilidades */
+.skills-container img {
+    width: 80px; /* Define a largura das imagens */
+    height: 80px; /* Define a altura das imagens */
+}
+
+/* Estilos responsivos para telas menores */
+@media (max-width: 768px) {
+    .profile-photo {
+        max-width: 150px; /* Reduz a largura máxima da foto para telas menores */
+    }
+
+    h3 {
+        font-size: 1.5rem; /* Reduz o tamanho da fonte dos subtítulos de terceiro nível */
+    }
+
+    h4 {
+        font-size: 1rem; /* Reduz o tamanho da fonte dos subtítulos de quarto nível */
+    }
+
+    .skills-container {
+        gap: 30px; /* Reduz o espaçamento entre logos para telas menores */
+    }
+}

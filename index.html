@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="city">
+            <h1>Eduarda Lino | Dev.</h1>
+            <button id="menu-button">&#9776;</button>
+        </div>
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="opção1.html">About-me</a></li>
+                    <li><a href="opção2.html">Projects</a></li>
+                    <li><a href="opção3.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <p>WELCOME TO MY PORTIFOLIO</p>
+        <h2>Desenvolvedora Front-End<br>com Paixão pela Experiência do Usuário</h2>
+    </main>
+    <style>
+       body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajusta a imagem para cobrir o fundo sem repetição */
+    background-position: top center; /* Centraliza a imagem */
+    
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: cover; /* Ajusta a imagem para caber completamente dentro da tela, mantendo as proporções */
+        background-position: center; /* Centraliza a imagem */
+
+        /*background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);*/ /*se caso tiver problema colocar fundo para tela menores*/
+    }
+}
+
+    </style>
+    <script src="java.js" defer></script>
+</body>
+</html>
