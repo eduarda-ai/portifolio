@@ -176,15 +176,70 @@ h6 {
         max-width: 150px; /* Reduz a largura máxima da foto para telas menores */
     }
 
-    h3 {
-        font-size: 1.5rem; /* Reduz o tamanho da fonte dos subtítulos de terceiro nível */
-    }
-
-    h4 {
-        font-size: 1rem; /* Reduz o tamanho da fonte dos subtítulos de quarto nível */
-    }
-
     .skills-container {
         gap: 30px; /* Reduz o espaçamento entre logos para telas menores */
+    }
+}
+/* Responsividade geral para telas menores */
+@media (max-width: 1024px) {
+    body {
+        font-size: 1rem; /* Diminui um pouco o tamanho das fontes */
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    /* Ajuste do botão menu */
+    #menu-button {
+        font-size: 18px;
+        top: 10px;
+        right: 10px;
+    }
+}
+
+/* Ajustes para telas muito pequenas (smartphones) */
+@media (max-width: 768px) {
+    body {
+        font-size: 0.9rem; /* Ainda menor para telas menores */
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    /* Ajustando margens e espaçamento */
+    .container {
+        margin-top: 10px; /* Menos espaço no topo */
+    }
+
+    /* Diminuindo o espaço entre os ícones */
+    .sci li a {
+        width: 40px;
+        height: 40px;
     }
 }
